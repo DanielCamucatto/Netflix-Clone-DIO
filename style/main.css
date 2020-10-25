@@ -1,0 +1,72 @@
+:root{
+    --red: #E50914;
+    --black:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* geral */
+body{
+    background: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 5px;
+    color: var(--red);
+    font-family: 'Arial Black' Times;
+    font-size: 40px;
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff
+}
+/* conteudo main */
+.main-move{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    background-size:cover;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main-move .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.button{
+    background-color:rgba(0, 0, 0, .50);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.button i{
+    margin-right: 10px;
+}
