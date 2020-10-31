@@ -70,3 +70,34 @@ header nav a:hover{
 .button i{
     margin-right: 10px;
 }
+.list{
+    margin-left: 1.5em;
+    margin-block-start: initial;
+}
+.container-primary{
+    margin-left: 40px;
+}
+.main-move .container{
+    width: 60%;
+    margin-block-start: initial;
+}
+.container-moves{
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    overflow-x: auto;
+    place-items: center;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.container-moves:hover{
+    transform: scale(1.1);
+}
+.imgMove{
+    flex: none;
+    object-fit: cover;
+    scroll-snap-align: start;
+    -webkit-overflow-scrolling: touch;
+    width: 28vw;
+    pointer-events: none;
+}
